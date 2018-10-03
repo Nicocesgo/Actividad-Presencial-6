@@ -17,13 +17,13 @@
     box-sizing: border-box;
     position: absolute;
     left: 25%;
-    top: 1%
+    top: 1%;
   }
 
   /*Bloque Padre*/
   .dad{
     width: 100%;
-    height: auto;
+    height: 410vh;
     background-color: white;
     padding: 5%;
     box-sizing: border-box;
