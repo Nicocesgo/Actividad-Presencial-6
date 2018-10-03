@@ -409,6 +409,10 @@
   }
 
   /*Grillas hijos*/
+  .col-md-0{
+    width: 0%
+  }
+
   .col-md-1{
     width: 10%;
     float: left;
@@ -455,6 +459,248 @@
     box-sizing: border-box;
   }
   .col-md-10{
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/*Vista Desktop*/
+@media (min-width: 769px){
+  body{
+    margin: 0px;
+    padding: 15% 5% 10% 5%;
+    box-sizing: border-box;
+    background-color: #ddd;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  #foto{
+    width: 20%;
+    border-radius: 50%;
+    border: solid 8px #ddd;
+    box-sizing: border-box;
+    position: absolute;
+    left: 40%;
+    top: 2%
+  }
+
+  /*Bloque Padre*/
+  .dad{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 5%;
+    box-sizing: border-box;
+  }
+
+  .espacio{
+    height: 80px
+  }
+  /*Nombre*/
+  .nombre{
+    text-align: center;
+  }
+  #name{
+    color: red;
+  }
+
+  .linea{
+    background-color: silver;
+    width: 100%;
+    height: 2px;
+  }
+
+  .columna1{
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+
+  /*Acerca de*/
+  .título{
+    color: red;
+    clear: both;
+    margin-top: 30px;
+  }
+
+  /*Educación*/
+  .estudio{
+    background-color: #ddd;
+    padding: 2px 10px 2px 10px;
+    box-sizing: border-box;
+  }
+
+  /*Experiencia*/
+  .subtítulo{
+    margin-bottom: 5px;
+  }
+
+  .fecha{
+    margin-top: 3px;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  .p_exp{
+    margin-top: 2px;
+    font-size: 0.95rem
+  }
+
+  /*Contacto*/
+  .listacontacto li{
+    font-size: 0.95rem;
+    margin-bottom: 2.5px;
+    padding-right: 20px;
+  }
+
+  /*Skills*/
+  .bar1{
+    width: 100%;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .bar2{
+    width: 90%;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .bar3{
+    width: 65%;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    position: relative;
+  }
+  .bar4{
+    width: 40%;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    position: relative;
+
+  }
+  .bar5{
+    width: 20%;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+
+  .barskills{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  /*Idiomas*/
+  .idiomas{
+    padding-right: 20px;
+  }
+
+  .fa{
+    color: #aaa
+  }
+  .checked {
+    color:red;
+  }
+  .id{
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  .stars{
+    box-sizing: border-box;
+  }
+  .linea2{
+    height: 2px;
+    background-color: #ddd;
+    clear: both;
+    margin-bottom: 5px;
+  }
+
+  /*Hobbies*/
+  .hob{
+    background-color: #990000;
+    display: inline-block;
+    color: white;
+    font-size: 0.85rem;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .linea3{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    height: 1.5px;
+    background-color: silver;
+    clear: both;
+  }
+
+  h5{
+    color: #888;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    clear: both;
+  }
+
+  /*Grillas hijos*/
+  .col-hd-1{
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-2{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-3{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-4{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-5{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-6{
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-7{
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-8{
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-9{
+    width: 90%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .col-hd-10{
     width: 100%;
     box-sizing: border-box;
   }
