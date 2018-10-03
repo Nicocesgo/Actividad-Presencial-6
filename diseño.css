@@ -57,6 +57,20 @@
     box-sizing: border-box;
   }
 
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ddd;
+    font-size: 0;
+    line-height: 0;
+    margin-top: -15px;
+    position: relative;
+    left: 0px;
+  }
+
+
   /*Experiencia*/
   .subtítulo{
     margin-bottom: 5px;
@@ -280,10 +294,24 @@
   }
 
   /*Educación*/
+
   .estudio{
     background-color: #ddd;
     padding: 2px 10px 2px 10px;
     box-sizing: border-box;
+  }
+
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ddd;
+    font-size: 0;
+    line-height: 0;
+    margin-top: -15px;
+    position: relative;
+    left: 10px;
   }
 
   /*Experiencia*/
@@ -534,7 +562,40 @@
     padding: 1px 10px 1px 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    position: relative;
+    top:1px;
   }
+
+  .estudio:before {
+    position:absolute;
+    left:-20px;
+    top:5px;
+    content:'';
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:1;
+  }
+
+  .estudio:after{
+    position:absolute;
+    left:-18px;
+    top:5px;
+    content:'';
+    height:0;
+    width:0;
+    border:10px solid transparent;
+    z-index:2;
+  }
+
+  .estudio:before {
+    border-right-color:#ddd;
+  }
+
+  .estudio:after {
+    border-right-color:#ddd;
+  }
+
 
   /*Experiencia*/
   .subtítulo{
@@ -664,6 +725,7 @@
     margin-bottom: 0px;
     clear: both;
   }
+
 
   /*Grillas hijos*/
   .col-hd-1{
