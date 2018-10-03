@@ -226,11 +226,11 @@
 }
 
 
-/*Vista Desktop*/
-@media (min-width:481) {
+/*Vista Tablet*/
+@media (min-width: 481px) and (max-width: 768px) {
   body{
     margin: 0px;
-    padding: 12% 5% 15% 5%;
+    padding: 20% 5% 10% 5%;
     box-sizing: border-box;
     background-color: #ddd;
     font-family: 'Poppins', sans-serif;
@@ -239,12 +239,12 @@
   }
 
   #foto{
-    width: 20%;
+    width: 30%;
     border-radius: 50%;
     border: solid 8px #ddd;
     box-sizing: border-box;
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 2%
   }
 
@@ -253,18 +253,14 @@
     width: 100%;
     height: auto;
     background-color: white;
-    padding: 5% 5% 1% 5%;
+    padding: 5%;
     box-sizing: border-box;
   }
 
   .espacio{
-    height: 100px
+    height: 125px
   }
   /*Nombre*/
-  h1{
-    text-align: center;
-  }
-
   #name{
     color: red;
   }
@@ -275,10 +271,6 @@
     height: 2px;
   }
 
-  .columna1{
-    padding-right: 25px;
-    box-sizing: border-box;
-  }
   /*Acerca de*/
   .título{
     color: red;
@@ -289,19 +281,13 @@
   /*Educación*/
   .estudio{
     background-color: #ddd;
-    padding: 2px 10px 1px 10px;
+    padding: 2px 10px 2px 10px;
     box-sizing: border-box;
-    margin-bottom: 10px;
-  }
-
-  .fecha1{
-    margin-top: 0px;
   }
 
   /*Experiencia*/
   .subtítulo{
-    margin-top: 5px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
 
   .fecha{
@@ -318,6 +304,7 @@
   .listacontacto li{
     font-size: 0.95rem;
     margin-bottom: 2.5px;
+    padding-right: 20px;
   }
 
   /*Skills*/
@@ -371,7 +358,10 @@
   }
 
   /*Idiomas*/
+  .idiomas{
+    padding-right: 20px;
   }
+
   .fa{
     color: #aaa
   }
@@ -383,16 +373,13 @@
     margin: 0px;
   }
   .stars{
-    font: 1.2rem;
-    text-align: right;
     box-sizing: border-box;
-
   }
   .linea2{
     height: 2px;
     background-color: #ddd;
     clear: both;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   /*Hobbies*/
@@ -419,9 +406,9 @@
     margin-top: 0px;
     margin-bottom: 0px;
     clear: both;
-
   }
 
+  /*Grillas hijos*/
   .col-md-1{
     width: 10%;
     float: left;
