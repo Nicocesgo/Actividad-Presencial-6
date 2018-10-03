@@ -23,7 +23,7 @@
   /*Bloque Padre*/
   .dad{
     width: 100%;
-    height: 410vh;
+    height: auto;
     background-color: white;
     padding: 5%;
     box-sizing: border-box;
